@@ -1,4 +1,4 @@
-# emojis_API
+# emojis_GoAPI
 
 ## Presentation
 
