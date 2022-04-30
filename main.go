@@ -3,7 +3,7 @@ package main
 //
 import (
 	"github.com/gin-gonic/gin"
-	//"github.com/thinkerou/favicon"
+	"github.com/thinkerou/favicon"
 )
 
 //
@@ -11,6 +11,9 @@ func main() {
 
 	//
 	r := gin.Default()
+
+	//
+	r.Use(favicon.New("./favicon.ico")) // set favicon middleware
 
 	//
 	r.GET("", func(c *gin.Context) {
