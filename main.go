@@ -17,14 +17,14 @@ func main() {
 	})
 
 	//
-	r.GET("/all", func(c *gin.Context) {
+	r.GET("/all_emojis", func(c *gin.Context) {
 		c.JSON(200, gin.H{
 			"message": "ping pong",
 		})
 	})
 
 	//
-	r.GET("/all", func(c *gin.Context) {
+	r.GET("/all_emojis/parameters", func(c *gin.Context) {
 		c.JSON(200, gin.H{
 			"message": "ping pong",
 		})
