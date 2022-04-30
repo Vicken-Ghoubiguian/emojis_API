@@ -1,7 +1,10 @@
 package main
 
 //
-import "github.com/gin-gonic/gin"
+import (
+	"github.com/gin-gonic/gin"
+	//"github.com/thinkerou/favicon"
+)
 
 //
 func main() {
