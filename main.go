@@ -38,5 +38,15 @@ func main() {
 	})
 
 	//
+	r.GET("/search/by_category/:category", func(c *gin.Context) {
+
+		category := c.Params.ByName("category")
+
+		c.JSON(200, gin.H{
+			"message": "ping pong" + category,
+		})
+	})
+
+	//
 	r.Run() // listen and serve on 0.0.0.0:8080...
 }
