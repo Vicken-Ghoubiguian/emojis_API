@@ -24,6 +24,26 @@ func main() {
 	})
 
 	//
+	/*r.GET("/emoji/:unicode", func(c *gin.Context) {
+
+		unicode := c.Params.ByName("unicode")
+
+		c.JSON(200, gin.H{
+			"message": "ping pong" + unicode,
+		})
+	})*/
+
+	//
+	r.GET("/emoji/:name", func(c *gin.Context) {
+
+		name := c.Params.ByName("name")
+
+		c.JSON(200, gin.H{
+			"message": "ping pong" + name,
+		})
+	})
+
+	//
 	r.GET("/all_categories", func(c *gin.Context) {
 		c.JSON(200, gin.H{
 			"message": "ping pong",
