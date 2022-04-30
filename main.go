@@ -24,7 +24,7 @@ func main() {
 	})
 
 	//
-	r.GET("/all_emojis/parameters", func(c *gin.Context) {
+	r.GET("/all_categories", func(c *gin.Context) {
 		c.JSON(200, gin.H{
 			"message": "ping pong",
 		})
