@@ -1,5 +1,7 @@
 # emojis_GoAPI
 
+!(Favicon)[favicon.ico]
+
 ## Presentation
 
 ## Contents
