@@ -1,6 +1,7 @@
 # emojis_GoAPI
 
 ![Favicon](./favicon.ico)
+<img align="center" src="./favicon.ico">
 
 ## Presentation
 
