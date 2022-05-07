@@ -27,7 +27,7 @@ func main() {
 			"logo": "https://raw.githubusercontent.com/Vicken-Ghoubiguian/emojis_GoAPI/main/favicon.ico",
 			"github": "https://github.com/Vicken-Ghoubiguian/emojis_GoAPI",
 			"docker": "",
-			"help": c.Request.Host+c.Request.URL.Path + "/help",
+			"help": c.Request.Host+c.Request.URL.Path + "help",
 		})
 	})
 
