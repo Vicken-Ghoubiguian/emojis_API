@@ -1,6 +1,6 @@
 # emojis_GoAPI
 
-![Favicon](favicon.ico)
+![Favicon](https://raw.githubusercontent.com/Vicken-Ghoubiguian/emojis_GoAPI/main/favicon.ico)
 
 ## Presentation
 
