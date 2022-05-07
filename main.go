@@ -23,6 +23,9 @@ func main() {
 			"description": "",
 			"author": "",
 			"use": "",
+			"version": "",
+			"github": "",
+			"docker": "",
 			"help": "" + c.Request.Host+c.Request.URL.Path,
 			"message": "Hello... Welcome... Presentation...",
 		})
