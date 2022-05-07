@@ -30,36 +30,9 @@ func main() {
 	})
 
 	//
-	r.GET("/emoji/:name", func(c *gin.Context) {
-
-		name := c.Params.ByName("name")
-
-		c.JSON(200, gin.H{
-			"message": "ping pong" + name,
-		})
-	})
-
-	//
 	r.GET("/all_categories", func(c *gin.Context) {
 		c.JSON(200, gin.H{
 			"message": "ping pong",
-		})
-	})
-
-	//
-	r.GET("/search", func(c *gin.Context) {
-		c.JSON(200, gin.H{
-			"message": "ping pong",
-		})
-	})
-
-	//
-	r.GET("/search/by_category/:category", func(c *gin.Context) {
-
-		category := c.Params.ByName("category")
-
-		c.JSON(200, gin.H{
-			"message": "ping pong" + category,
 		})
 	})
 
