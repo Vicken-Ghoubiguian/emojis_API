@@ -18,35 +18,35 @@ func main() {
 	//
 	r.GET("", func(c *gin.Context) {
 		c.JSON(200, gin.H{
-			"message": "Hello, world!",
+			"message": "Hello... Welcome... Presentation...",
 		})
 	})
 
 	//
 	r.GET("/help", func(c *gin.Context) {
 		c.JSON(200, gin.H{
-			"message": "ping pong",
+			"message": "Help... Manual...",
 		})
 	})
 
 	//
 	r.GET("/all_emojis", func(c *gin.Context) {
 		c.JSON(200, gin.H{
-			"message": "ping pong",
+			"message": "List all emojis...",
 		})
 	})
 
 	//
 	r.GET("/all_categories", func(c *gin.Context) {
 		c.JSON(200, gin.H{
-			"message": "ping pong",
+			"message": "List all categories' name and descprition...",
 		})
 	})
 
 	//
 	r.GET("/all_sub_categories", func(c *gin.Context) {
 		c.JSON(200, gin.H{
-			"message": "ping pong",
+			"message": "List all categories' name, descprition and category to which it belongs...",
 		})
 	})
 
