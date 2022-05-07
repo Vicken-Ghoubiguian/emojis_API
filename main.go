@@ -21,7 +21,7 @@ func main() {
 			"title": "",
 			"presentation": "",
 			"description": "",
-			"author": "",
+			"author": "Vicken Ghoubiguian",
 			"use": "",
 			"version": "",
 			"logo": "https://raw.githubusercontent.com/Vicken-Ghoubiguian/emojis_GoAPI/main/favicon.ico",
