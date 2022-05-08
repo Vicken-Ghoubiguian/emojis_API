@@ -8,6 +8,8 @@ API written in Go to get, return, treat and manage all existing emojis...
 
 ## Contents
 
+## Conclusion
+
 ## Useful links
 
 * [Full Emoji List, v14.0 - Unicode](https://unicode.org/emoji/charts/full-emoji-list.html)
