@@ -18,12 +18,12 @@ func main() {
 	//
 	r.GET("", func(c *gin.Context) {
 		c.JSON(200, gin.H{
-			"title": "",
+			"title": "emojis_GoAPI",
 			"presentation": "",
 			"description": "",
 			"author": "Vicken Ghoubiguian",
 			"use": "",
-			"version": "",
+			"version": 1.0,
 			"logo": "https://raw.githubusercontent.com/Vicken-Ghoubiguian/emojis_GoAPI/main/favicon.ico",
 			"github": "https://github.com/Vicken-Ghoubiguian/emojis_GoAPI",
 			"docker": "",
