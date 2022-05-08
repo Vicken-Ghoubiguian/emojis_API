@@ -1,5 +1,7 @@
 # emojis_GoAPI
 
+API written in Go to get, return, treat and manage all existing emojis...
+
 ![Favicon](./favicon.ico)
 
 ## Presentation
