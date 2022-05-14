@@ -27,8 +27,6 @@ func main() {
 	//
 	r.GET("", func(c *gin.Context) {
 
-		//logrus.Warnf("Failed to fetch user orgs. %s", err)
-
 		c.JSON(200, gin.H{
 			"title":        "emojis_GoAPI",
 			"description":  "API written in Go to get, return, treat and manage all existing emojis",
