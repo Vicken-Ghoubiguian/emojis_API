@@ -49,6 +49,13 @@ func main() {
 	})
 
 	//
+	r.GET("/uses", func(c *gin.Context) {
+		c.JSON(200, gin.H{
+			"message": "Uses... Manual...",
+		})
+	})
+
+	//
 	r.GET("/all_emojis", func(c *gin.Context) {
 		c.JSON(200, gin.H{
 			"message": "List all emojis...",
