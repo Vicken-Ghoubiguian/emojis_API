@@ -32,7 +32,7 @@ func main() {
 			"description":  "API written in Go to get, return, treat and manage all existing emojis",
 			"presentation": "",
 			"author":       "Vicken Ghoubiguian",
-			"use":          "",
+			"use":          c.Request.Host + c.Request.URL.Path + "uses",
 			"version":      1.0,
 			"logo":         "https://raw.githubusercontent.com/Vicken-Ghoubiguian/emojis_GoAPI/main/favicon.ico",
 			"github":       "https://github.com/Vicken-Ghoubiguian/emojis_GoAPI",
