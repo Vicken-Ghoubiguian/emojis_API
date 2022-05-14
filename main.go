@@ -12,6 +12,8 @@ import (
 //
 func main() {
 
+	/**************************************************************/
+
 	//
 	var log_logrus = logrus.New()
 
@@ -23,6 +25,8 @@ func main() {
 
 	//
 	r.Use(favicon.New("./favicon.ico")) // set favicon middleware
+
+	/**************************************************************/
 
 	//
 	r.GET("", func(c *gin.Context) {
