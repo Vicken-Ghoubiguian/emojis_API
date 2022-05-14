@@ -48,14 +48,21 @@ func main() {
 	/**************************************************************/
 
 	//
-	r.GET("/help", func(c *gin.Context) {
+	r.GET("/manual", func(c *gin.Context) {
 		c.JSON(200, gin.H{
 			"message": "Help... Manual...",
 		})
 	})
 
 	//
-	r.GET("/uses", func(c *gin.Context) {
+	r.GET("/manual/help", func(c *gin.Context) {
+		c.JSON(200, gin.H{
+			"message": "Help... Manual...",
+		})
+	})
+
+	//
+	r.GET("/manual/uses", func(c *gin.Context) {
 		c.JSON(200, gin.H{
 			"message": "Uses... Manual...",
 		})
