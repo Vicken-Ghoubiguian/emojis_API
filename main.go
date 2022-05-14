@@ -19,8 +19,8 @@ func main() {
 	r.GET("", func(c *gin.Context) {
 		c.JSON(200, gin.H{
 			"title": "emojis_GoAPI",
-			"presentation": "API written in Go to get, return, treat and manage all existing emojis",
-			"description": "",
+			"description": "API written in Go to get, return, treat and manage all existing emojis",
+			"presentation": "",
 			"author": "Vicken Ghoubiguian",
 			"use": "",
 			"version": 1.0,
