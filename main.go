@@ -2,12 +2,21 @@ package main
 
 //
 import (
+	"os"
+
 	"github.com/gin-gonic/gin"
+	"github.com/sirupsen/logrus"
 	"github.com/thinkerou/favicon"
 )
 
 //
 func main() {
+
+	//
+	var log_logrus = logrus.New()
+
+	//
+	log_logrus.Out = os.Stdout
 
 	//
 	r := gin.Default()
@@ -17,17 +26,20 @@ func main() {
 
 	//
 	r.GET("", func(c *gin.Context) {
+
+		//logrus.Warnf("Failed to fetch user orgs. %s", err)
+
 		c.JSON(200, gin.H{
-			"title": "emojis_GoAPI",
-			"description": "API written in Go to get, return, treat and manage all existing emojis",
+			"title":        "emojis_GoAPI",
+			"description":  "API written in Go to get, return, treat and manage all existing emojis",
 			"presentation": "",
-			"author": "Vicken Ghoubiguian",
-			"use": "",
-			"version": 1.0,
-			"logo": "https://raw.githubusercontent.com/Vicken-Ghoubiguian/emojis_GoAPI/main/favicon.ico",
-			"github": "https://github.com/Vicken-Ghoubiguian/emojis_GoAPI",
-			"docker": "",
-			"help": c.Request.Host + c.Request.URL.Path + "help",
+			"author":       "Vicken Ghoubiguian",
+			"use":          "",
+			"version":      1.0,
+			"logo":         "https://raw.githubusercontent.com/Vicken-Ghoubiguian/emojis_GoAPI/main/favicon.ico",
+			"github":       "https://github.com/Vicken-Ghoubiguian/emojis_GoAPI",
+			"docker":       "",
+			"help":         c.Request.Host + c.Request.URL.Path + "help",
 		})
 	})
 
