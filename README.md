@@ -19,4 +19,5 @@ API written in Go to get, return, treat and manage all existing emojis...
 * [Logrus - GitHub](https://github.com/sirupsen/logrus),
 * [Favicon Gin's middleware - GitHub](https://github.com/thinkerou/favicon),
 * [Main page - SQLite](https://www.sqlite.org/index.html),
-* [Command Line Shell For SQLite - SQLite](https://www.sqlite.org/cli.html)
+* [Command Line Shell For SQLite - SQLite](https://www.sqlite.org/cli.html),
+* [PlantUML en un mot - PlantUML](https://plantuml.com/fr/)
