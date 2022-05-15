@@ -12,7 +12,7 @@ import (
 //
 func main() {
 
-	/**************************************************************/
+	/********************* API configuration *********************/
 
 	//
 	var log_logrus = logrus.New()
@@ -26,7 +26,7 @@ func main() {
 	//
 	r.Use(favicon.New("./favicon.ico")) // set favicon middleware
 
-	/**************************************************************/
+	/********************* Presentation API route *********************/
 
 	//
 	r.GET("", func(c *gin.Context) {
