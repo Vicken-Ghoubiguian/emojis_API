@@ -1,4 +1,4 @@
-package main
+package types
 
 // Defining the type 'Emoji' which define an emoji...
 type Emoji struct {
