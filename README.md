@@ -10,6 +10,8 @@ API written in Go to get, return, treat and manage all existing emojis...
 
 ## Introduction
 
+## Composition
+
 ## Conclusion
 
 ## Useful links
