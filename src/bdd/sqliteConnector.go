@@ -12,13 +12,15 @@ func getEmoji(emoji_id int64) {
 
 	checkErr(err)
 
-	rows, err := db.Query("SELECT * FROM unicode_emojis WHERE  = ?")
+	stmt, err := db.Prepare("SELECT * FROM unicode_emojis WHERE  = ?")
+
+	rows, err := stmt.Exec("astaxieupdate", emoji_id)
 
 	checkErr(err)
 
-	for rows.Next() {
+	print(rows)
 
-	}
+	checkErr(err)
 
 	db.Close()
 }
