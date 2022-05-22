@@ -6,16 +6,7 @@ import (
 )
 
 //
-type sqliteConnector struct {
-}
-
-//
-func (currentSqliteConnector *sqliteConnector) InitializeSqlConnector() {
-
-}
-
-//
-func (currentSqliteConnector *sqliteConnector) getEmoji() {
+func getEmoji() {
 
 	db, err := sql.Open("sqlite3", "./unicode_emojis.db")
 
