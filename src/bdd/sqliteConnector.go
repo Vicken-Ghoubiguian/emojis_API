@@ -6,7 +6,7 @@ import (
 )
 
 //
-func getEmoji(emoji_id int64) {
+func getEmojiFromItsId(emoji_id int64) {
 
 	db, err := sql.Open("sqlite3", "./unicode_emojis.db")
 	checkErr(err)
