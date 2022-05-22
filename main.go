@@ -3,7 +3,6 @@ package main
 //
 import (
 	"os"
-
 	"github.com/gin-gonic/gin"
 	"github.com/sirupsen/logrus"
 	"github.com/thinkerou/favicon"
