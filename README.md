@@ -6,6 +6,7 @@ API written in Go to get, return, treat and manage all existing emojis...
 
 ## Contents
 
+<a name="presentation"></a>
 ## Presentation
 
 <a name="introduction"></a>
