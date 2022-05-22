@@ -8,12 +8,16 @@ API written in Go to get, return, treat and manage all existing emojis...
 
 ## Contents
 
+<a name="introduction"></a>
 ## Introduction
 
+<a name="project_s_structure"></a>
 ## Project's structure
 
+<a name="conclusion"></a>
 ## Conclusion
 
+<a name="useful_links"></a>
 ## Useful links
 
 * [Full Emoji List, v14.0 - Unicode](https://unicode.org/emoji/charts/full-emoji-list.html)
