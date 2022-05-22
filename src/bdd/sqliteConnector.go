@@ -17,7 +17,7 @@ func (currentSqliteConnector *sqliteConnector) InitializeSqlConnector() {
 //
 func (currentSqliteConnector *sqliteConnector) getEmoji() {
 
-	db, err := sql.Open("sqlite3", "./foo.db")
+	db, err := sql.Open("sqlite3", "./unicode_emojis.db")
 
 	checkErr(err)
 
