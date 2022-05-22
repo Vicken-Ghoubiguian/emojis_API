@@ -4,9 +4,9 @@ API written in Go to get, return, treat and manage all existing emojis...
 
 ![Favicon](./favicon.ico)
 
-## Presentation
-
 ## Contents
+
+## Presentation
 
 <a name="introduction"></a>
 ## Introduction
