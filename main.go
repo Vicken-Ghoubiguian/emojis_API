@@ -3,8 +3,7 @@ package main
 //
 import (
 	"os"
-	//"database/sql"
-	//"github.com/mattn/go-sqlite3"
+
 	"github.com/gin-gonic/gin"
 	"github.com/sirupsen/logrus"
 	"github.com/thinkerou/favicon"
