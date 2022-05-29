@@ -15,6 +15,9 @@ API written in Go to get, return, treat and manage all existing emojis...
 <a name="project_s_structure"></a>
 ## Project's structure
 
+<a name="project_s_development"></a>
+## Project's development
+
 <a name="deployment"></a>
 ## Deployment
 
