@@ -33,7 +33,7 @@ func main() {
 		c.JSON(200, gin.H{
 			"title":        "emojis_GoAPI",
 			"description":  "API written in Go to get, return, treat and manage all existing emojis",
-			"presentation": "",
+			"presentation": "Web API to get, return, treat and manage all existing emojis and to make statistical calculations on them",
 			"author":       "Vicken Ghoubiguian",
 			"version":      1.0,
 			"logo":         "https://raw.githubusercontent.com/Vicken-Ghoubiguian/emojis_GoAPI/main/favicon.ico",
