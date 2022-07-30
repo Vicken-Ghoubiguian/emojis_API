@@ -6,4 +6,6 @@ type Emoji struct {
 	title           string
 	unicode         string
 	cldr_short_name string
+	category Category
+	subcategory SubCategory
 }
