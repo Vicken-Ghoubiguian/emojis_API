@@ -6,6 +6,12 @@ type Emoji struct {
 	title           string
 	unicode         string
 	cldr_short_name string
-	category Category
-	subcategory SubCategory
+	category        Category
+	subcategory     SubCategory
+}
+
+//
+func (current_emoji *Emoji) GetNumber() int {
+
+	return current_emoji.number
 }
