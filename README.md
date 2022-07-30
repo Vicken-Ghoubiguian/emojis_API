@@ -24,6 +24,30 @@ API written in Go to get, return, treat and manage all existing emojis...
 <a name="source_code"></a>
 ### Source code
 
+```bash
+git clone https://github.com/Vicken-Ghoubiguian/emojis_GoAPI
+```
+
+```bash
+cd emojis_GoAPI
+```
+
+```bash
+unset $GOPATH
+```
+
+```bash
+go mod init emojis_GoAPI
+```
+
+```bash
+go mod tidy
+```
+
+```bash
+go 
+```
+
 <a name="docker"></a>
 ### Docker
 
