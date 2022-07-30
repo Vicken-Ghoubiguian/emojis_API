@@ -33,7 +33,7 @@ cd emojis_GoAPI
 ```
 
 ```bash
-unset $GOPATH
+unset GOPATH
 ```
 
 ```bash
