@@ -45,7 +45,7 @@ go mod tidy
 ```
 
 ```bash
-go 
+go run main.go
 ```
 
 <a name="docker"></a>
