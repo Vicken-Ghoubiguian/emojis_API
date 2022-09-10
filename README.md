@@ -24,6 +24,7 @@ API written in Go to get, return, treat and manage all existing emojis...
 <a name="source_code"></a>
 ### Source code
 
+First of all, you must clone this git repo using this command :
 ```bash
 git clone https://github.com/Vicken-Ghoubiguian/emojis_GoAPI
 ```
