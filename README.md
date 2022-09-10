@@ -52,6 +52,12 @@ go run main.go
 <a name="docker"></a>
 ### Docker
 
+#### Requirements
+
+#### From the Dockerfile
+
+#### From Docker Hub
+
 <a name="conclusion"></a>
 ## Conclusion
 
