@@ -71,4 +71,5 @@ go run main.go
 * [Main page - SQLite](https://www.sqlite.org/index.html),
 * [Command Line Shell For SQLite - SQLite](https://www.sqlite.org/cli.html),
 * [PlantUML en un mot - PlantUML](https://plantuml.com/fr/),
-* [database/sql - ](https://pkg.go.dev/database/sql)
+* [database/sql - ](https://pkg.go.dev/database/sql),
+* [Pushing and Pulling to and from Docker Hub - R Docker tutorial](https://jsta.github.io/r-docker-tutorial/04-Dockerhub.html)
